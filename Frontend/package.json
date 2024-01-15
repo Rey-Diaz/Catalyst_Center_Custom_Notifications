@@ -9,7 +9,7 @@
     "build-react": "react-scripts build",
     "build-electron": "electron-builder",
     "start-electron": "electron ."
-},
+  },
   "dependencies": {
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
@@ -26,11 +26,12 @@
     "@types/react-dom": "^18.2.17",
     "@vitejs/plugin-react": "^4.2.1",
     "electron": "^28.1.3",
+    "electron-is-dev": "^3.0.1",
     "eslint": "^8.55.0",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "vite": "^5.0.8"
   },
-  "main": "main.js"
+  "main": "../main.js"
 }

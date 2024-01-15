@@ -26,7 +26,7 @@ function createWindow() {
 }
 
 function startBackend() {
-    backendProcess = spawn('python', ['Catalyst_Center_Custom_Notifications\Frontend\Backend\server.py']);
+    backendProcess = spawn('python', ['Frontend/Backend/server.py']);
 
     backendProcess.stdout.on('data', (data) => {
         console.log(`Backend: ${data}`);
